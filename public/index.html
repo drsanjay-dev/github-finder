@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GitHub Finder</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="input_wrapper">
+      <input type="text" placeholder="Enter GitHub Username" class="input_user" />
+      <div class="button_submit" onclick="fetchUser()">Search</div>
+    </div>
+
+    <div class="row">
+      <div class="user_info">
+        <img src="images/github_logo.png" alt="" class="profile_pic" />
+        <div class="user_name">
+          <h1 class="name">-</h1>
+          <h3 class="username">@username</h3>
+        </div>
+        <div class="stats">
+          <div class="total_repos">Total Repositories: <strong class="repo_count">0</strong></div>
+          <div class="follow">
+            <div class="items">
+              <p>Followers</p>
+              <span class="followers">0</span>
+            </div>
+            <div class="items">
+              <p>Following</p>
+              <span class="following">0</span>
+            </div>
+          </div>
+        </div>
+        <div class="joined_date">Joined: <span class="joined">--</span></div>
+      </div>
+
+      <div class="repo">
+                <h1>Repositories</h1>
+                <div class="repo_details">
+                    <div class="item">
+                        <div class="repo_name">-</div>
+                        <div class="repo_details">
+                            <div class="info_star">
+                                <p>-</p>
+                            </div>
+                            <div class="info_fork">
+                                <p>-</p>
+                            </div>
+                            <div class="info_size">
+                                <p>-</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
+
+        
