@@ -10,7 +10,7 @@ A responsive web app to find any GitHub user's profile and repositories using th
 - Clean modern UI with tech branding
 
 ## 🚀 Live Demo
-[Click here to try it]()
+[Click here to try it](https://github-profile-finder-7vwy.onrender.com)
 
 ## 📦 Tech Stack
 - HTML
